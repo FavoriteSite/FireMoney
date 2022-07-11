@@ -1,0 +1,118 @@
+@font-face {
+  font-family: 'icons';
+  src: url('../fonts/icons.woff?hf5t0v') format('woff'),
+    url('../fonts/icons.svg?hf5t0v#icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"]::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-age:before {
+  content: "\e900";
+  color: #fff;
+}
+
+.icon-arrow-bottom:before {
+  content: "\e901";
+  color: #031d69;
+}
+
+.icon-arrow-bottom-orange:before {
+  content: "\e902";
+  color: #ffad45;
+}
+
+.icon-arrow-right:before {
+  content: "\e903";
+  color: #afafaf;
+}
+
+.icon-arrow-top:before {
+  content: "\e904";
+  color: #fff;
+}
+
+.icon-calendar:before {
+  content: "\e905";
+  color: #ff7b00;
+}
+
+.icon-cross:before {
+  content: "\e906";
+  color: #92a0ab;
+}
+
+.icon-facebook:before {
+  content: "\e907";
+  color: #fff;
+}
+
+.icon-inst:before {
+  content: "\e908";
+  color: #fff;
+}
+
+.icon-letter:before {
+  content: "\e909";
+  color: #fefefe;
+}
+
+.icon-local:before {
+  content: "\e90a";
+  color: #ffa048;
+}
+
+.icon-plus:before {
+  content: "\e90b";
+  color: #ffad45;
+}
+
+.icon-rub:before {
+  content: "\e90c";
+  color: #ff7b00;
+}
+
+.icon-star:before {
+  content: "\e90d";
+  color: #c7ced6;
+}
+
+.icon-star-active:before {
+  content: "\e90e";
+  color: #feb300;
+}
+
+.icon-tel:before {
+  content: "\e90f";
+  color: #fefefe;
+}
+
+.icon-white-arrow-left:before {
+  content: "\e910";
+  color: #fff;
+}
+
+.icon-white-arrow-right:before {
+  content: "\e911";
+  color: #fff;
+}
+
+.icon-youtube:before {
+  content: "\e912";
+  color: #fff;
+}
